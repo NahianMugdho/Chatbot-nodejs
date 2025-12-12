@@ -301,6 +301,13 @@ For production deployment:
 }
 ```
 
+## 🎯 Available Models (v1beta):
+check available models of your gemin api by pasdte it in cmd:
+```json
+curl "https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY_HERE"
+```
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

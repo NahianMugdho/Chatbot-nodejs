@@ -515,7 +515,7 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT,"0.0.0.0" ,() => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
   console.log(`🤖 Froppy AI Assistant powered by Google Gemini`);
   console.log(`🔑 API Key configured: ${GEMINI_API_KEY ? 'Yes' : 'No'}`);
